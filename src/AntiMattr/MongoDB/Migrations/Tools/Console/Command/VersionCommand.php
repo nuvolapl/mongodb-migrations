@@ -51,7 +51,7 @@ EOT
      * @param \Symfony\Component\Console\Input\InputInterface
      * @param \Symfony\Component\Console\Output\OutputInterface
      *
-     * @throws UnknownVersionException Throws exception if migration version does not exist
+     * @throws UnknownVersionException   Throws exception if migration version does not exist
      * @throws \InvalidArgumentException
      */
     public function execute(InputInterface $input, OutputInterface $output)
